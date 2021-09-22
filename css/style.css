@@ -1,0 +1,174 @@
+/******DEBUG*********/
+
+.debug {
+    border: 1px solid red;
+}
+
+/*******FONTS***************/
+/* font-family: 'Raleway', sans-serif; */
+
+
+/******HEADER************************/
+
+.logo img{
+    height: 3em;
+    margin-top: 1em;
+    margin-left: .5em;
+}
+
+@media (max-width: 991px) {
+    #header {
+        display: flex;
+        justify-content: center;
+    }
+    .logo img {
+        margin-left: 0;
+    }
+}
+
+/******NAVBAR************************/
+
+@media (max-width: 991px) {
+    #navbar-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+    #navbarNav {
+        text-align: center;
+    }
+    #logo-title {
+        margin-right: 0;
+    }
+    .contact-icons {
+        justify-content: space-evenly;
+    }
+}
+
+/* .navbar .container {
+    padding-right: 4px;
+} */
+
+#nav-collapse-toggler {
+    border: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
+
+#nav-collapse-toggler:focus {
+    box-shadow: none;
+}
+
+#nav-collapse-toggler:hover {
+    color: rgba(224,31,140,.92);
+}
+
+#nav-collapse-menu {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+}
+
+#logo-title {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+
+#nav-list a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+}
+
+#nav-list .active  {
+    color: rgba(224,31,140,.92);
+    letter-spacing: 0.1em;
+}
+
+#nav-list a:hover {
+    color: rgba(224,31,140,.92);
+}
+
+.contact-icons {
+    display:inline-flex;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        justify-content: center;
+    }
+}
+
+/******GALLERY****************/
+
+.general-section img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.image-set img {
+    width: 100%;
+    object-fit: fill;
+}
+
+.figure-img:hover {
+    opacity: .9;
+    transition: cubic-bezier(0, 0, 0.65, 1.01);
+}
+
+.figure-caption {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    font-size: 14px;
+}
+
+.figure-caption .kaina {
+    letter-spacing:normal
+}
+
+
+
+/*************OPEN PROJECT ***************/
+
+#project-nav {
+    display: flex;
+    /* margin-bottom: 1em; */
+    
+}
+
+#project-nav a {
+    text-decoration: none;
+    color: #6c757d;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    font-size: 14px;
+}
+
+#project-title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.3em;
+    font-size: 20px; 
+}
+
+#project-title h2 span {
+    letter-spacing: normal;
+}
+
+#project-title p {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+}
